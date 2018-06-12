@@ -4,7 +4,7 @@ import Departure from "./Departure";
 export default ({ station, departuresTable }) => {
   console.log("render", station);
   return (
-    <table class="table">
+    <table className="table">
       <caption>Next Departures from {station}</caption>
       <TableHeaders />
       <tbody>

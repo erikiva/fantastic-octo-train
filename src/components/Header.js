@@ -13,15 +13,15 @@ export default class Header extends Component {
   }
   render() {
     return (
-      <div class="row">
-        <div class="col-md-3">
+      <div className="row">
+        <div className="col-md-3">
           {weekDay(this.state.currentTime)} <br />
           {date(this.state.currentTime)}
         </div>
-        <div class="col-md-6">
+        <div className="col-md-6">
           <h1> DEPARTURES INFORMATION</h1>
         </div>
-        <div class="col-md-3">
+        <div className="col-md-3">
           Current time <br /> {time(this.state.currentTime)}
         </div>
       </div>

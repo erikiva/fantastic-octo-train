@@ -2,7 +2,7 @@ import React from "react";
 import { rowClass } from "../utils";
 
 export default ({ row }) => (
-  <tr class={rowClass(row.Status)}>
+  <tr className={rowClass(row.Status)}>
     <td>{row.ScheduledTime}</td>
     <td>{row.Destination}</td>
     <td>{row.Trip}</td>
