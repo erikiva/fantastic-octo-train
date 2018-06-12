@@ -1,0 +1,32 @@
+{
+  "name": "departures",
+  "version": "1.0.0",
+  "description": "Small app to display departures from North and South stations",
+  "author": "Natalia Vidal",
+  "keywords": [
+    "react"
+  ],
+  "main": "src/index.js",
+  "homepage": "https://erikiva.github.io/fantastic-octo-train",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/npm.git"
+  },
+  "dependencies": {
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "react-scripts": "1.1.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "license": "MIT"
+}
