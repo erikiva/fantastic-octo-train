@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAAA,GACE,eAAiB,CAGnB,QACE,gBACA,gBAAkB","file":"static/css/main.8a711fa6.css","sourcesContent":["h1 {\n  font-size: 1.3em;\n}\n\ncaption {\n  font-size: 1.2em;\n  caption-side: top;\n}\n\n\n\n// WEBPACK FOOTER //\n// ./src/styles.css"],"sourceRoot":""}
