@@ -10,7 +10,7 @@
   "homepage": "https://erikiva.github.io/fantastic-octo-train",
   "repository": {
     "type": "git",
-    "url": "https://github.com/npm/npm.git"
+    "url": "https://github.com/erikiva/npm.git"
   },
   "dependencies": {
     "react": "16.3.2",

@@ -17,18 +17,10 @@ export default class App extends Component {
 
   fetchData = () => {
     fetch(
-      "https://crossorigin.me/https://developer.mbta.com/lib/gtrtfs/Departures.csv",
-      {
-        headers: {
-          //Origin: "*"
-        }
-        //credentials: "omit", // include, same-origin, *omit
-        //mode: "no-cors" // no-cors, cors, *same-origin
-      }
+      "https://crossorigin.me/https://developer.mbta.com/lib/gtrtfs/Departures.csv"
     )
       .then(response => response.text())
       .then(data => {
-        //console.log("returned", data); // [{"Hello": "world"}, …]
         let departures = csvtojson(data);
         this.updateDepartures(departures);
       })
