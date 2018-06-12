@@ -31,7 +31,7 @@ export default class App extends Component {
     this.fetchData();
     this.timerID = setInterval(() => {
       this.fetchData();
-    }, 100000);
+    }, 60000);
   }
 
   componentWillUnmount() {
