@@ -3,14 +3,21 @@ import { weekDay, date, time } from "../utils/time";
 
 export default class Header extends Component {
   state = { currentTime: new Date() };
+
+  componentDidMount() {
+    this.timerID = setInterval(() => this.tick(), 1000);
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.timerID);
+  }
+
   tick = () => {
     this.setState({
       currentTime: new Date()
     });
   };
-  componentDidMount() {
-    this.timerID = setInterval(() => this.tick(), 1000);
-  }
+
   render() {
     return (
       <div className="row">

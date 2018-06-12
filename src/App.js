@@ -35,7 +35,6 @@ export default class App extends Component {
   }
 
   componentWillUnmount() {
-    clearInterval(this.timerID);
     clearInterval(this.dataID);
   }
   render() {
